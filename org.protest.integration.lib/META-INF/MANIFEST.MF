@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Common libraries for integrating Protest tools.
+Bundle-SymbolicName: org.protest.integration.lib
+Bundle-Version: 0.1.0.qualifier
+Bundle-Activator: org.protest.integration.lib.Activator
+Bundle-Vendor: ProTest Consortium
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text;bundle-version="3.5.2",
+ org.eclipse.ui.editors;bundle-version="3.5.0",
+ org.erlide.core;bundle-version="0.7.5",
+ org.eclipse.core.resources;bundle-version="3.5.2",
+ org.protest.integration.lib;bundle-version="0.1.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: org.protest.integration.lib.textutils,
+ org.protest.integration.lib.ui;uses:="org.eclipse.swt.widgets,org.eclipse.jface.dialogs"
